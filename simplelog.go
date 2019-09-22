@@ -49,8 +49,6 @@ func setup(debugHandle io.Writer, infoHandle io.Writer, errorHandle io.Writer) *
 		"ERR: ",
 		log.Ldate|log.Lmicroseconds|log.LUTC)
 
-	logger.Debug.Printf("Debug logging enabled")
-
 	return &logger
-
 }
+
